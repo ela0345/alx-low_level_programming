@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * Main - Prints sizes
+ * main - Prints the size of var types
  *
- * Return returns 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
