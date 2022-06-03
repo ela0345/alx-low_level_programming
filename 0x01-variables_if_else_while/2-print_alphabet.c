@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char c, nl = 'nl';
+	char c, nl = '\n';
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
