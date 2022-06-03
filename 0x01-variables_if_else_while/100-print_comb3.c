@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints the numbers
- * 
+ * main - Prints numbers
+ *
  * Return: Always (Success)
  */
 int main(void)
@@ -11,12 +11,12 @@ int main(void)
 
 	for (c = '0'; c <= '9'; c++)
 	{
-		for (x = c+1; x <= '9'; x++)
+		for (x = c + 1; x <= '9'; x++)
 		{
 			putchar(c);
 			putchar(x);
 
-			if (c != '8' || x !='9')
+			if (c != '8' || x != '9')
 			{
 				putchar(',');
 				putchar(' ');
