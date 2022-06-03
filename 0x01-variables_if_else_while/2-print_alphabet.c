@@ -7,12 +7,13 @@
  */
 int main(void)
 {
-	char c;
+	char c, nl = 'nl';
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		putchar(c);
 	}
 
+	putchar(nl);
 	return (0);
 }
